@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muneer | DevOps & Cloud Infrastructure Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font-awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<canvas id="neural-canvas"></canvas>
+   <!-- Header / Navbar -->
+    <header>
+        <div class="nav-container">
+            <!-- Left Side: Logo & Quick Contact Info to make it look full -->
+            <div class="header-left">
+                <div class="logo">
+                    <span>Syed Muneer uddin</span>
+                </div>
+                <div class="header-contact-quick">
+                    <span><i class="fa-regular fa-envelope"></i> isyedmuneer@gmail.com</span>
+                    <span class="separator">|</span>
+                    <span><i class="fa-solid fa-location-dot"></i> Karachi, PK</span>
+                </div>
+            </div>
+
+            <!-- Right Side: Links, Socials & Action Button -->
+            <div class="header-right">
+                <nav>
+                    <a href="#about">About</a>
+                    <a href="#skills">Tech Stack</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                </nav>
+                <div class="header-socials">
+                    <a href="https://www.linkedin.com/in/isyedmuneeruddin" target="_blank" title="LinkedIn Profile">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <a href="#contact" class="btn-primary">Hire Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="container">
+        
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-text">
+                <div class="status-badge">
+                    <span class="status-dot"></span>
+                    Ready to Deploy: Open for DevOps Contracts
+                </div>
+                <h1>Hi, I am <span class="highlight">Muneer</span></h1>
+                <h2></h2>
+                <p>I build high-availability infrastructure, automate CI/CD pipelines, and implement robust security boundaries across AWS and GCP environments. Specializing in GitOps, IaC (Terraform), and Container Orchestration.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary-large">Discuss a Project</a>
+                    <a href="#experience" class="btn-secondary-large">View My Work</a>
+                </div>
+            </div>
+           <div class="image-wrapper">
+    <div class="profile-glow-ring"></div>
+    <img src="muneer.png" alt="Muneer Uddin" class="profile-pic">
+</div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section class="skills" id="skills">
+            <div class="section-title">
+                <h2>Tech Stack</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Cloud Providers</h3>
+                    <div class="tags">
+                        <span>Amazon Web Services (AWS)</span>
+                        <span>Google Cloud Platform (GCP)</span>
+                        <span>Microsoft Azure</span>
+
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Automation & CI/CD</h3>
+                    <div class="tags">
+                        <span>Jenkins Pipelines</span>
+                        <span>Ansible Playbooks</span>
+                        <span>GitOps</span>
+                        <span>GitHub</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Infrastructure as Code</h3>
+                    <div class="tags">
+                        <span>Terraform</span>
+                        <span>CloudFormation</span>
+                        <span>Remote Backends</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section class="projects" id="projects">
+            <div class="section-title">
+                <h2>Featured Deployments</h2>
+            </div>
+            <div class="projects-grid">
+
+                <!-- Project 1: Private AWS Backend Architecture -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-cloud-arrow-up"></i>
+                    </div>
+                    <h3>Secure Private AWS Backend</h3>
+                    <p>Designed and deployed a highly secure private AWS backend using Terraform. Configured Systems Manager (SSM) for secure shell-less instance management and optimized S3 Gateway Endpoints to ensure all traffic remains entirely isolated from the public internet.</p>
+                    <div class="project-tags">
+                        <span>Terraform</span>
+                        <span>AWS SSM</span>
+                        <span>VPC Endpoints</span>
+                        <span>S3</span>
+                    </div>
+                </div>
+
+                <!-- Project 2: High-Availability EFS Web Cluster -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <h3>Multi-Node Shared Web Cluster</h3>
+                    <p>Configured a secure, multi-node shared Nginx web server architecture. Leveraged Ansible Playbooks to automate the mounting of AWS Elastic File System (EFS) volumes, ensuring seamless real-time file synchronization across all active servers.</p>
+                    <div class="project-tags">
+                        <span>Ansible</span>
+                        <span>AWS EFS</span>
+                        <span>Nginx</span>
+                        <span>EC2 Fleets</span>
+                    </div>
+                </div>
+
+                <!-- Project 3: Personal WireGuard VPN Server -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3>Automated WireGuard VPN Node</h3>
+                    <p>Built a custom, personal WireGuard VPN server inside a lightweight AWS EC2 instance. Generated custom cryptographic keys, configured secure routing tables, and optimized the client profile for instant secure remote network access.</p>
+                    <div class="project-tags">
+                        <span>WireGuard</span>
+                        <span>Linux Admin</span>
+                        <span>AWS EC2</span>
+                        <span>Security</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience" id="experience">
+            <div class="section-title">
+                <h2>Experience</h2>
+            </div>
+            <div class="timeline">
+
+                <!-- Role 1: OBHost LLC -->
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3><i class="fa-solid fa-briefcase"></i> AWS Cloud Engineer</h3>
+                        <span class="company-detail">OBHost LLC</span>
+                        <span class="date">Nov 2025 - Present</span>
+                    </div>
+                    <ul>
+                        <li>Architecting secure cloud environments implementing IAM access control, tailored security policies, and robust multi-tier VPC networking on AWS.</li>
+                        <li>Configuring cloud automation and lifecycle cleanup systems leveraging AWS Lambda functions to optimize storage utilization and operational efficiency.</li>
+                        <li>Automating clean baseline infrastructure deployments utilizing Terraform, securing systems against configuration drift.</li>
+                        <li>Managing remote Linux instances securely using terminal workflows (PuTTY / SSH) to maintain system integrity and execute platform updates.</li>
+                    </ul>
+                </div>
+
+                <!-- Role 2: Sherdil Cloud -->
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3><i class="fa-solid fa-briefcase"></i> AWS Cloud Engineer Associate</h3>
+                        <span class="company-detail">Sherdil Cloud</span>
+                        <span class="date">Jan 2025 - Nov 2025</span>
+                    </div>
+                    <ul>
+                        <li>Deployed and managed scalable compute fleets (EC2), secure cloud object storage (S3), and automated snapshot lifecycle configurations.</li>
+                        <li>Orchestrated multi-node shared server infrastructures implementing centralized storage mounts (EFS) and automated system setups using Ansible.</li>
+                        <li>Configured secure, high-availability application routing utilizing dynamic load balancers and network security boundaries (NACLs/Security Groups).</li>
+                        <li>Drafted robust infrastructure delivery templates with CloudFormation to ensure consistent rollbacks and drift monitoring.</li>
+                    </ul>
+                </div>
+
+                <!-- Role 3: SRP Global LLC -->
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3><i class="fa-solid fa-briefcase"></i> Web Development Intern</h3>
+                        <span class="company-detail">SRP Global LLC</span>
+                        <span class="date">May 2023 - Jul 2023</span>
+                    </div>
+                    <ul>
+                        <li>Assisted in designing responsive web interfaces and structuring modular code layouts to optimize client-side load performance.</li>
+                        <li>Collaborated with engineering teams to integrate front-end architectures with backend system frameworks.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+         <!-- About Section -->
+        <section class="about" id="about">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-grid">
+                <p>With a solid engineering foundation starting in technical support and VoIP systems, I transitioned directly into pure Cloud Infrastructure and DevOps engineering. I believe infrastructure should be self-healing, completely automated, and represented entirely as code.</p>
+                <p>Whether it is establishing zero-trust private connectivity via custom WireGuard nodes, configuring site-to-site IPsec VPN tunnels with BGP routing, or optimizing high-traffic load balancers, I focus on delivering scalable architectures without configuration drift.</p>
+            </div>
+        </section>
+
+
+     <section id="contact" class="contact-section">
+    <!-- Aapka heading aur Web3Forms contact form iske andar hoga -->
+</section>
+<form id="contact-form" action="http://localhost:5000/api/contact" method="POST">
+    <div class="input-group">
+        <input type="text" name="name" id="form-name" placeholder="Your Name" required>
+        <input type="email" name="email" id="form-email" placeholder="Your Email" required>
+    </div>
+    
+    <textarea name="message" id="form-message" placeholder="Let's discuss our project!" required></textarea>
+    
+    <button type="submit" class="submit-btn">
+        Send Message <i class="fa-solid fa-paper-plane"></i>
+    </button>
+</form>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Muneer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

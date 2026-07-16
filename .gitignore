@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules/
+/backend/node_modules/
+
+# Local env files
+.env
+.env.local
+
+# Docker logs and systems
+.docker-clean
+npm-debug.log*
