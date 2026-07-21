@@ -17,3 +17,5 @@ EXPOSE 5000
 
 # Start the Node server
 CMD ["node", "server.js"]
+
+
